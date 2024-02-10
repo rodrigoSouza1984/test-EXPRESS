@@ -1,0 +1,25 @@
+{
+  "name": "api_jurosCompostos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "testcoverage": "jest --coverage",
+    "watch": "jest --watchAll",
+    "start": "node ./src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-validator": "^6.14.0",
+    "pg": "^8.7.3",
+    "sequelize": "^6.19.0",
+    "supertest": "^6.2.2"
+  }
+}
